@@ -12,6 +12,10 @@ export default Controller.extend({
 
     changeCellColor(cell){
       cell.set('color', this.color);
+  }, 
+
+  newGame(){
+    this.game.pickRandomTemplate();
   }
 
   }
